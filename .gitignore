@@ -1,0 +1,11 @@
+# Ignore binary files
+*.o
+mpi_box_muller
+benchmark
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore other unnecessary files
+output.txt
