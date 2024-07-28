@@ -1,4 +1,4 @@
-
+```markdown
 # High-Frequency Trading Simulation with MPI
 
 ## Overview
@@ -12,25 +12,26 @@ For detailed performance results, refer to the [Performance Results](docs/perfor
 
 ## Usage
 To run the main simulation:
-\`\`\`bash
+```bash
 mpirun -np <number_of_processes> ./mpi_box_muller <Mmax>
-\`\`\`
-- \`<number_of_processes>\`: The number of MPI processes to use.
-- \`<Mmax>\`: The maximum number of samples to generate.
+```
+- `<number_of_processes>`: The number of MPI processes to use.
+- `<Mmax>`: The maximum number of samples to generate.
 
 Example:
-\`\`\`bash
+```bash
 mpirun -np 4 ./mpi_box_muller 1000000
-\`\`\`
+```
 
 To run the benchmark:
-\`\`\`bash
+```bash
 mpirun -np 1 ./benchmark <Mmax> <optimized>
-\`\`\`
-- \`<optimized>\`: 0 for non-optimized, 1 for optimized.
+```
+- `<optimized>`: 0 for non-optimized, 1 for optimized.
 
 Example:
-\`\`\`bash
+```bash
 mpirun -np 1 ./benchmark 1000000 1
-\`\`\`
+```
+
 
