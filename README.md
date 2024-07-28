@@ -1,4 +1,3 @@
-```markdown
 # High-Frequency Trading Simulation with MPI
 
 ## Overview
